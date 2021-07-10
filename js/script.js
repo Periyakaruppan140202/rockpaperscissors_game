@@ -55,7 +55,7 @@ function play(e) {
     }
     if (x == 10 && x > y) {
       document.getElementById("result").innerHTML =
-        "Game Over! <br>You Wins the Game!!";
+        "Game Over! <br>You Won the Game!!";
       document.getElementById("btn").style.visibility = "visible";
       //   x = 0;
       //   y = 0;
