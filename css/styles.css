@@ -1,0 +1,97 @@
+body {
+  background-color: orange;
+}
+/* #ffc324 */
+h2,
+h3 {
+  text-align: center;
+}
+
+#result {
+  text-align: center;
+  border: 2px solid #611255;
+  width: 250px;
+  background-color: lavender;
+  margin: auto;
+}
+#rock,
+#paper,
+#sci {
+  border-radius: 50%;
+  padding: 20px;
+  overflow: hidden;
+}
+#computer {
+  border-radius: 50%;
+  border: 2px solid #611255;
+  background-color: lavender;
+  transition: transform 0.5s ease;
+  box-shadow: inset 0px 0px 0px 2px #611255;
+  box-sizing: border-box;
+}
+.comp {
+  text-align: center;
+  margin-top: 20px;
+}
+table,
+th,
+td {
+  border: 3px solid #611255;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+  background-color: lavender;
+}
+button {
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  border: 2px solid #611255;
+  font-weight: bold;
+  transition: transform 0.5s ease;
+}
+
+.icon {
+  text-align: center;
+}
+.result_container {
+  margin-top: 20px;
+}
+.center {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover,
+button:active {
+  border: 2px solid white;
+  transform: scale(1.05);
+}
+#rock img,
+#paper img,
+#sci img {
+  transition: transform 0.5s ease;
+  transform: rotate(-90deg);
+}
+#rock:hover img,
+#paper:hover img,
+#sci:hover img {
+  transform: scale(1.1) rotate(0deg);
+}
+#rock:active img,
+#paper:active img,
+#sci:active img {
+  border-radius: 50%;
+  border: 2px solid #611255;
+  box-shadow: inset 0px 0px 0px 10px #611255;
+  box-sizing: border-box;
+}
+#computer:hover {
+  transform: scale(1.2);
+}
+@media (max-width: 768px) {
+  img {
+    width: 20%;
+  }
+}
