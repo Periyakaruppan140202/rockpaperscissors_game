@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="css/styles.css" class="rel" />
+  </head>
+  <body">
+      <h2>ROCK PAPER SCISSORS</h2>
+        <div class="icon">
+          <span id="rock">
+            <img src="rock.png" alt="" width="10%">
+          </span>
+          <span id="paper">
+            <img src="paper.png" alt="" width="10%">
+          </span>
+          <span id="sci">
+            <img src="scissors.png" alt="" width="10%">
+          </span>
+        </div>
+        <div class="result_container"><h3 id="result">START</h3></div>
+        <div class="comp">
+          <img id="computer" src="computer.gif" alt="" width="10%">
+        </div>
+        <div>
+          <h3>SCORES</h3>
+          <table align="center">
+            
+              <tr>
+                <th>PLAYER(YOU)</th>
+                <th>COMPUTER</th>
+              </tr>
+              <tr>
+                <td id="player_scr">0</td>
+                <td id="computer_scr">0</td>
+              </tr>
+          </table>
+        </div>
+        <div class="center">
+          <button id="btn" onclick="location.reload()">
+          RESTART THE GAME
+          </button>
+        </div>
+        <div id="info_text" hidden>
+          Priority<br>
+          Rock > Scissors<br>
+          Paper > Rock<br>
+          Scissors > Paper<br>
+        </div>
+        <div id="info">
+          <img src="info.jpg" alt="">
+        </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
