@@ -1,7 +1,7 @@
 # Rock! Paper! Scissors!
 **Hello Everyone!**
-I am very happy to share my new Web Application game which is very familiar to most of us. It's ROCK PAPER SCISSORS !! Play this wonderful game, Enjoy your childhood memories and have fun :)
-
+I am very happy to share my new Web Application game which is very familiar to most of us. It's ROCK PAPER SCISSORS !! Play this wonderful game, Enjoy your childhood memories and have fun :)<br>
+Have Fun Playing: https://rock-paper-scissor-games.herokuapp.com/
 # How to Play:
 
 **This game is based on priority**
