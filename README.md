@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+# Rock! Paper! Scissors!
+**Hello Everyone!**
+I am very happy to share my new Web Application game which is very familiar to most of us. It's ROCK PAPER SCISSORS !! Play this wonderful game, Enjoy your childhood memories and have fun :)
 
-You can use the [editor on GitHub](https://github.com/Periyakaruppan140202/rockpaperscissors_game/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
+# How to Play:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**This game is based on priority**
+* 🥌 > ✂️
+* 📰 > 🥌
+* ✂️ > 📰
+* So when your choice has higher priority you win! Else...
+* Try Again 😜
+So the player who reaches 5 points first will win the game!
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Periyakaruppan140202/rockpaperscissors_game/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Most of the games are based upon randomness (i.e, Dice games, Book Cricket, etc...). So I have used a random function to predict the choices of the computer! I have used simple #html5, #css3, and #javascript to build this web application. This game is also responsive on Mobile devices!
